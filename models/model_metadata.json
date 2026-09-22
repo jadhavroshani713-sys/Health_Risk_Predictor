@@ -1,0 +1,45 @@
+{
+    "project_name": "Healthcare Risk Predictor",
+    "student_name": "Roshani Jadhav",
+    "internship": "AICTE | IBM SkillsBuild Data Analytics with AI",
+    "partner": "BharatCares",
+    "feature_names": [
+        "HighBP",
+        "HighChol",
+        "CholCheck",
+        "BMI",
+        "Smoker",
+        "Stroke",
+        "Diabetes",
+        "PhysActivity",
+        "Fruits",
+        "Veggies",
+        "HvyAlcoholConsump",
+        "AnyHealthcare",
+        "NoDocbcCost",
+        "GenHlth",
+        "MentHlth",
+        "PhysHlth",
+        "DiffWalk",
+        "Sex",
+        "Age",
+        "Education",
+        "Income"
+    ],
+    "metrics_rf": {
+        "Model": "Random Forest Classifier (Balanced)",
+        "Accuracy (%)": 74.02,
+        "Precision (%)": 25.34,
+        "Recall (%)": 77.97,
+        "F1-Score (%)": 38.25,
+        "ROC-AUC": 0.8341
+    },
+    "metrics_lr": {
+        "Model": "Logistic Regression (Class-Weighted)",
+        "Accuracy (%)": 73.92,
+        "Precision (%)": 25.24,
+        "Recall (%)": 77.82,
+        "F1-Score (%)": 38.11,
+        "ROC-AUC": 0.8355
+    }
+}
